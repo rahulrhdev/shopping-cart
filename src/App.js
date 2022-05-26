@@ -1,8 +1,15 @@
+<<<<<<< Updated upstream
 import logo from './logo.svg';
 import './App.css';
+=======
+import CartNavbar from "./components/CartNavbar";
+import Login from "./components/Login"; 
+import Cart from "./components/Cart";
+>>>>>>> Stashed changes
 
 function App() {
   return (
+<<<<<<< Updated upstream
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +25,12 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+    <div >
+      {/* <Login />
+      <CartNavbar /> */}
+      <Cart />
+>>>>>>> Stashed changes
     </div>
   );
 }
